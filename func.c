@@ -19,8 +19,16 @@ void numberSquare(int number) {
     printf("The square of %d is %d\n",number, calculateSquare);
 }
 
+void addNumber(int num1, int num2) {
+    int sumOfNumber = num1 + num2;
+    printf("The Sum of %d and %d is %d",num1, num2, sumOfNumber);
+}
+
 int main(void) {
     numberSquare(4);
     numberSquare(5);
     numberSquare(6);
+    addNumber(2,2);
+    addNumber(2,3);
+    addNumber(2,4);
 }
