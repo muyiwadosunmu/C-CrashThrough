@@ -21,7 +21,7 @@ void numberSquare(int number) {
 
 void addNumber(int num1, int num2) {
     int sumOfNumber = num1 + num2;
-    printf("The Sum of %d and %d is %d",num1, num2, sumOfNumber);
+    printf("The Sum of %d and %d is %d\n",num1, num2, sumOfNumber);
 }
 
 int main(void) {
